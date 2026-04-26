@@ -15,25 +15,27 @@
 📱 Her Cihazda Kusursuz: İster mobilde ister masaüstünde, her ekrana tam uyum.
 
 ## 🛠️ Teknoloji Yığını
-Core: Vue.js 3 (Composition API)
 
-Type Safety: TypeScript
+- Core: Vue.js 3 (Composition API)
 
-State: Pinia
+- Type Safety: TypeScript
 
-Style: CSS3 / SCSS
+- State: Pinia
 
-Build: Vite
+- Style: CSS3 / SCSS
+
+- Build: Vite
 
 ## 🚀 Hızlı Başlangıç
-Projeyi kendi bilgisayarınızda çalıştırmak çok kolay:
 
-Depoyu klonlayın: git clone https://github.com/vaxen404/edutrack-pro.git
+- Projeyi kendi bilgisayarınızda çalıştırmak çok kolay:
 
-Dizine gidin: cd EduTrack
+1. Depoyu klonlayın: git clone https://github.com/vaxen404/edutrack-pro.git
 
-Paketleri yükleyin: npm install
+2. Dizine gidin: cd EduTrack
 
-Çalıştırın: npm run dev
+3. Paketleri yükleyin: npm install
+
+4. Çalıştırın: npm run dev
 
 ## Crafted with ❤️ by vaxen404
