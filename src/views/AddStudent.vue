@@ -42,11 +42,11 @@ const submitForm = () => {
         <div class="form-grid">
             <div class="form-group">
                 <label>First Name</label>
-                <input type="text" v-model="form.firstname" placeholder="firstname...">
+                <input type="text" v-model="form.firstname" >
             </div>
             <div class="form-group">
                 <label>Last Name</label>
-                <input type="text" v-model="form.lastname" placeholder="lastname...">
+                <input type="text" v-model="form.lastname" >
             </div>
 
             <div class="form-group">
