@@ -3,9 +3,9 @@ import { ref } from 'vue'
 
 export const useUserStore = defineStore('userStore', () => {
     const students = ref([
-        { id: 1, firstname: 'ahmet', lastname: 'yılmaz', firstGrade: 55, lastGrade: 50, firstOralGrade: 55, lastOralGrade: 60},
-        { id: 2, firstname: 'mehmet', lastname: 'zengin', firstGrade: 75, lastGrade: 50, firstOralGrade: 55, lastOralGrade: 60},
-        { id: 3, firstname: 'ali', lastname: 'kaya', firstGrade: 40, lastGrade: 50, firstOralGrade: 55, lastOralGrade: 60}
+        { id: 1, firstname: 'ahmet', lastname: 'yılmaz', firstGrade: 55, lastGrade: 50, firstOralGrade: 60, lastOralGrade: 55},
+        { id: 2, firstname: 'mehmet', lastname: 'zengin', firstGrade: 75, lastGrade: 50, firstOralGrade: 80, lastOralGrade: 60},
+        { id: 3, firstname: 'ali', lastname: 'kaya', firstGrade: 40, lastGrade: 50, firstOralGrade: 50, lastOralGrade: 55}
     ])
 
     const addStudent = (newStudent: { firstname: string, lastname: string, firstGrade: number, lastGrade: number, firstOralGrade: number, lastOralGrade: number}) => {
