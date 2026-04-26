@@ -51,7 +51,7 @@ const confirmDelete = (id: number, name: string) => {
                <div class="average-box" :style="{ color: Number(calculateAverage(student)) < 50 ? '#ff4d4d' : '#2ecc71' }">
                     <small>AVG</small>
                     <strong>{{ calculateAverage(student) }}</strong>
-                </div
+                </div>
 
                 <div class="btns">
                     <button class="edit-btn" @click="router.push('/details/' + student.id)">Edit</button>
