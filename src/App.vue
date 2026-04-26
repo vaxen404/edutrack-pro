@@ -23,7 +23,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style>
-/* Uygulama Genelindeki Fontlar ve Reset */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -37,7 +36,6 @@ body {
   padding: 20px;
 }
 
-/* Navbar Tasarımı */
 .navbar {
   display: flex;
   justify-content: space-between;

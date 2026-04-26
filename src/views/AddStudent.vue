@@ -77,7 +77,7 @@ const submitForm = () => {
 
 <style scoped>
 .form-container { 
-    max-width: 600px; /* Yan yana gelmesi için genişliği biraz artırdık */
+    max-width: 600px; 
     margin: 40px auto; 
     padding: 30px; 
     background: white; 
@@ -87,11 +87,10 @@ const submitForm = () => {
 
 h2 { margin-bottom: 25px; color: #2c3e50; text-align: center; }
 
-/* Yan yana dizilimi sağlayan kısım */
 .form-grid { 
     display: grid; 
-    grid-template-columns: 1fr 1fr; /* İki eşit sütun oluşturur */
-    gap: 20px; /* Inputlar arasındaki boşluk */
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
     margin-bottom: 30px;
 }
 

@@ -10,8 +10,6 @@ const userStore = useUserStore()
 const studentID = Number(route.params.id)
 const student = computed(() => userStore.students.find(s => s.id === studentID))
 
-// Form verilerini öğrenci bilgilerine göre dolduruyoruz
-// watchEffect kullanarak sayfa yüklendiğinde verilerin gelmesini garanti ediyoruz
 const grades = ref({
     firstGrade: 0,
     lastGrade: 0,
@@ -38,13 +36,11 @@ const handleUpdate = (field: 'firstGrade' | 'lastGrade' | 'firstOralGrade' | 'la
         return
     }
 
-    // Store'daki dinamik updateGrade fonksiyonunu çağırıyoruz
     userStore.updateGrade(studentID, field, newValue)
     alert(`${field} başarıyla güncellendi!`)
 }
 
 const saveAllAndExit = () => {
-    // Hepsini birden güncellemek istersen döngüyle de yapabilirsin
     userStore.updateGrade(studentID, 'firstGrade', grades.value.firstGrade)
     userStore.updateGrade(studentID, 'lastGrade', grades.value.lastGrade)
     userStore.updateGrade(studentID, 'firstOralGrade', grades.value.firstOralGrade)
