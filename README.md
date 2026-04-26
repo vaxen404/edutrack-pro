@@ -1,7 +1,9 @@
-🎓 EduTrack Pro
+# 🎓 EduTrack Pro
+
 Öğrenci başarı yönetimini bir üst seviyeye taşıyan, modern ve performans odaklı bir takip platformu. Vue 3 ve TypeScript'in gücüyle geliştirildi.
 
-✨ Öne Çıkanlar
+## ✨ Öne Çıkanlar
+
 👨‍🎓 Akıllı Yönetim: Saniyeler içinde öğrenci ekleyin, silin ve tüm listeyi yönetin.
 
 📊 Anlık Analiz: Notlar girildiği an vize, final ve ödev ortalamalarını otomatik hesaplayın.
@@ -12,7 +14,7 @@
 
 📱 Her Cihazda Kusursuz: İster mobilde ister masaüstünde, her ekrana tam uyum.
 
-🛠️ Teknoloji Yığını
+## 🛠️ Teknoloji Yığını
 Core: Vue.js 3 (Composition API)
 
 Type Safety: TypeScript
@@ -23,7 +25,7 @@ Style: CSS3 / SCSS
 
 Build: Vite
 
-🚀 Hızlı Başlangıç
+## 🚀 Hızlı Başlangıç
 Projeyi kendi bilgisayarınızda çalıştırmak çok kolay:
 
 Depoyu klonlayın: git clone https://github.com/vaxen404/edutrack-pro.git
@@ -34,4 +36,4 @@ Paketleri yükleyin: npm install
 
 Çalıştırın: npm run dev
 
-Crafted with ❤️ by vaxen404
+## Crafted with ❤️ by vaxen404
